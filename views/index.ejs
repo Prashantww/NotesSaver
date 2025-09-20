@@ -29,7 +29,10 @@
       <% if (fileInfo.length > 0){ %> <%fileInfo.forEach((val) => {%>
       <div class="note">
         <h3><%=val.name %></h3>
-        <p><%=val.content %></p>
+        <p>
+          <%=val.content.slice(0, 150) + ((val.content.length > 150)?"...":"")
+          %>
+        </p>
         <button><a href="">Open</a></button>
         <div class="bgBlur"></div>
       </div>

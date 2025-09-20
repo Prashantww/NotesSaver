@@ -1,0 +1,4 @@
+	1.	Go to GitHub → click New repository
+	2.	Give it a name (e.g., my-project)
+	3.	Leave Initialize with README unchecked (since you already have files locally)
+	4.	Copy the repo URL (e.g., https://github.com/your-username/my-project.git)

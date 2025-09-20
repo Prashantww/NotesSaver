@@ -92,12 +92,13 @@ textarea {
   position: relative;
   background-color: #f9f9f9;
   width: 227px;
-  height: 145px;
+  height: 138px;
   border: 1px solid #dfdfdf;
   border-radius: 15px;
   box-shadow: 0 7px 15px rgba(158, 158, 158, 0.1),
     0 27px 27px rgba(158, 158, 158, 0.09), 0 61px 36px rgba(158, 158, 158, 0.05);
   padding: 17px;
+  overflow: hidden;
 }
 
 h3 {
