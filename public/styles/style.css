@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  font-family: "Geist", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 58px;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+form {
+  border: 1px solid #b6b6b6;
+  width: 555px;
+  height: 238px;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 7px 15px rgba(158, 158, 158, 0.1),
+    0 27px 27px rgba(158, 158, 158, 0.09), 0 61px 36px rgba(158, 158, 158, 0.05);
+}
+
+input,
+textarea {
+  all: unset;
+  box-sizing: border-box;
+  padding: 0 34px;
+  width: 100%;
+}
+
+input {
+  height: 51.5px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+textarea {
+  height: 139px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 7.5px;
+}
+
+.line {
+  height: 1px;
+  width: 487px;
+  background-color: #e0e0e0;
+}
+
+.submitButton {
+  border: none;
+  outline: none;
+  align-self: flex-end;
+  margin-top: auto;
+  width: 57px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 13px;
+  margin-right: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.note {
+  position: relative;
+  background-color: #f9f9f9;
+  width: 227px;
+  height: 145px;
+  border: 1px solid #dfdfdf;
+  border-radius: 15px;
+  box-shadow: 0 7px 15px rgba(158, 158, 158, 0.1),
+    0 27px 27px rgba(158, 158, 158, 0.09), 0 61px 36px rgba(158, 158, 158, 0.05);
+  padding: 17px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 6px;
+  color: #7c7c7c;
+  letter-spacing: 0;
+}
+
+.note button {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border: none;
+  outline: none;
+  width: 57px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 13px;
+  margin-right: 13px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.bgBlur {
+  background-color: #f9f9f9;
+  height: 57px;
+  width: 70px;
+  margin-right: 13px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  filter: blur(7px);
+  border-radius: 7px;
+}
+
+.notes {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-top: 96px;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,4 @@
+Files in directory: [ 'a.txt', 'b.jpg', 'c.pdf' ]
+File name: a.txt
+File name: b.jpg
+File name: c.pdf

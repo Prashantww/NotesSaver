@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>A Place to Save Your Notes<br />Safely & Securely</h1>
+    <form action="/create" method="post">
+      <input type="text" placeholder="Title" name="title" />
+      <div class="line"></div>
+      <textarea
+        name="details"
+        id=""
+        placeholder="Write your content here..."
+      ></textarea>
+      <input class="submitButton" type="submit" value="Save" />
+      <!-- <button>Save</button> -->
+    </form>
+    <div class="notes">
+      <% if (fileInfo.length > 0){ %> <%fileInfo.forEach((val) => {%>
+      <div class="note">
+        <h3><%=val.name %></h3>
+        <p><%=val.content %></p>
+        <button><a href="">Open</a></button>
+        <div class="bgBlur"></div>
+      </div>
+      <%})%> <%}%>
+    </div>
+  </body>
+</html>

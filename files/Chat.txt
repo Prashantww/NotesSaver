@@ -1,0 +1,1 @@
+Do you want the filename of files you’re rendering in your EJS loop (like files.forEach(...)), or just the filename of the current Node.js file (app.js, server.js, etc.)?
